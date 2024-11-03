@@ -9,7 +9,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Gallery from './pages/InstituteGallery';
-import Login from './components/Login';
+import Login from './Components/Login';
 import AdminDashboard from './pages/AdminDashboard';
 import StudentDashboard from './pages/StudentDashboard';
 import CoursePage from './pages/CoursePage';
