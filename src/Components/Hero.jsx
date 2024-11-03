@@ -1,11 +1,10 @@
 'use client'
 
 import React, { useEffect, useState } from 'react';
-import './Hero.css';
+''
 
 export default function Hero() {
   const [text, setText] = useState("");
-  const [isTypingComplete, setIsTypingComplete] = useState(false);
   const fullText = "Welcome to Jan Kalyan Sewa Samiti";
 
   useEffect(() => {
@@ -15,7 +14,6 @@ export default function Hero() {
       index++;
       if (index === fullText.length) {
         clearInterval(interval);
-        setIsTypingComplete(true);
       }
     }, 100);
 
@@ -28,9 +26,8 @@ export default function Hero() {
       
       <div className="relative container mx-auto px-4 py-16 text-center">
         <h1 className="text-3xl sm:text-4xl md:text-5xl text-blue-300 font-bold mb-4 whitespace-nowrap overflow-hidden">
-          <span className={`inline-block animate-typewriter ${isTypingComplete ? 'cursor' : ''}`}>
-            {text}
-          </span>
+          <span className="inline-block w-full animate-typewriter">{text}</span>
+          <span className="animate-blink">|</span>
         </h1>
         <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
           Empowering futures through quality education in IT. 
