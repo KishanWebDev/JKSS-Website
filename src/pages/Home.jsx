@@ -1,9 +1,9 @@
 import React from 'react'
-import Hero from '../components/Hero'
+import Hero from '../Components/Hero'
 import TestimonialsSection from '../Components/TestimonialsSection'
-import BlogSection from '../components/BlogSection'
-import Gallery from '../components/Gallery'
-import ContactForm from '../components/ContactForm'
+import BlogSection from '../Components/BlogSection'
+import Gallery from '../Components/Gallery'
+import ContactForm from '../Components/ContactForm'
 
 const Home = () => {
   return (
