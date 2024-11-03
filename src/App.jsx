@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import { Toaster } from 'sonner'; // Add this import
 import 'react-toastify/dist/ReactToastify.css';
 import Header from './Components/Header';
-import Footer from './components/Footer';
+import Footer from './Components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
