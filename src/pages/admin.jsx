@@ -1,6 +1,6 @@
 // src/pages/admin.jsx
 import React from 'react';
-import CourseManagement from '../components/CourseManagement';
+import CourseManagement from '../Components/CourseManagement';
 
 const Admin = () => {
   return (

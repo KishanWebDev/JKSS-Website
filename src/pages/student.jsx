@@ -1,6 +1,6 @@
 // src/pages/student.jsx
 import React from 'react';
-import StudentPortal from '../components/StudentPortal';
+import StudentPortal from '../Components/StudentPortal';
 
 const Student = () => {
   return (
